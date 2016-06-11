@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Awesome Checkbox Control</title>
+
+<link rel="stylesheet" type="text/css" href="css/awesome-checkbox.css">
+
+</head>
+<body>
+<div class="container">
+<form>
+
+
+<input type="checkbox" data-color="red" data-label="OPtions1" class="Option" value="">
+
+<div class="checkbox">
+  <label><input type="checkbox" class="Option" value="">Option 2</label>
+</div>
+<div class="checkbox disabled">
+  <label><input type="checkbox" class="Option" value="" disabled>Option 3</label>
+</div>
+
+<input type="checkbox" name="maths" class="wrap" value="on"> Maths1
+<input type="checkbox" name="physics" class="wrap" value="on"> Physics1
+
+<label class="checkbox-inline">
+	<input type="checkbox" name="maths" class="grp1" value="on"> Maths2
+</label>
+<label class="checkbox-inline">
+	<input type="checkbox" name="physics" class="grp1" value="on"> Physics2
+</label>
+
+<label class="checkbox-inline">
+<input type="checkbox" name="maths" class="grp2" value="on"> Maths3</label>
+<label class="checkbox-inline">
+<input type="checkbox" name="physics" class="grp2" value="on"> Physics3</label>
+<br>
+<label class="checkbox-inline">
+<input type="checkbox" name="maths" class="grp3" value="on"> Maths4</label>
+<label class="checkbox-inline">
+<input type="checkbox" name="physics" class="grp3" value="on"> Physics4</label>
+<br>
+<label class="checkbox-inline">
+<input type="checkbox" name="maths" class="grp4" value="on"> Maths5</label>
+<label class="checkbox-inline">
+<input type="checkbox" name="physics" class="grp4" value="on"> Physics5</label>
+
+
+</form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="awesome-checkbox.js"></script>
+<script>
+
+	$('.Option').awesome({  // calls the init method
+	  color : 'default'
+	});
+
+	$('.wrap').awesome({  // calls the init method
+	  color : 'green'
+	});
+
+	$('.grp1').awesome({  // calls the init method
+	  color : 'green'
+	});
+	
+	$('.grp2').awesome({  // calls the init method
+	  color : 'blue'
+	});
+	
+	$('.grp3').awesome({  // calls the init method
+	  color : 'red'
+	});
+	
+	$('.grp4').awesome();
+	
+</script>
+
+</body>
+</html>

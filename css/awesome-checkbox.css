@@ -1,0 +1,92 @@
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table
+}
+.clearfix:after{
+	clear:both
+}
+.clearfix{
+	*zoom:1
+}
+
+.awesome_checkbox_wrap{
+	display: inline-block;
+	padding:0;
+	margin:0
+}
+
+.awesome_checkbox_wrap a{
+
+	height: 30px;
+	width: 30px;
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin: 0;
+	background: url('../img/checksprite.png');
+}
+
+.awesome_checkbox_wrap label{
+	display: block;
+	float: left;
+	margin: 6px 5px;
+	cursor: pointer;
+}
+
+
+.default a,
+.green a,
+.red a,
+.blue a
+{
+	background-position: -7px -8px;
+}
+
+/*** Default ***/
+.default a:focus{
+	background-position: -7px -8px;
+}
+
+.default a.checked{
+	background-position: -157px -8px;
+}
+
+/*** Green ***/
+.green a:focus{
+	background-position: -36px -45px;
+}
+
+.green a.checked{
+	background-position: -66px -45px;
+}
+
+.green a.checked:focus{
+	background-position: -96px -45px;
+}
+
+/*** Blue ***/
+.blue a:focus{
+	background-position: -37px -8px;
+}
+
+.blue a.checked{
+	background-position: -67px -8px;
+}
+
+.blue a.checked:focus{
+	background-position: -97px -8px;
+}
+
+/*** Blue ***/
+.red a:focus{
+	background-position: -35px -83px;
+}
+
+.red a.checked{
+	background-position: -65px -83px;
+}
+
+.red a.checked:focus{
+	background-position: -95px -83px;
+}
+
