@@ -2,7 +2,7 @@
 Jquery plugin to replace all checkboxes with custom awesome looking checkboxes.
 
 ## Example
-
+<code>
 <input type="checkbox" data-color="red" data-label="Options1" class="Option" value="">
 
 <script>
@@ -12,10 +12,7 @@ Jquery plugin to replace all checkboxes with custom awesome looking checkboxes.
 	});
 
 </script>
-
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+</code>
 
 ## Installation
 
