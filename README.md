@@ -5,6 +5,9 @@ Jquery plugin to replace all checkboxes with custom awesome looking checkboxes.
 
 Download the Zip and place it in your project folder. Include the awesome-checkbox.js and awesome-checkbox.css file in your web page.
 
+	<link rel="stylesheet" type="text/css" href="css/awesome-checkbox.css">
+	<script src="awesome-checkbox.js"></script>
+
 
 Write your inputs and add a class for the jQuery selector:
 
