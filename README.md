@@ -8,7 +8,7 @@ Download the Zip and place it in your project folder. Include the awesome-checkb
 
 Write your inputs and add a class for the jQuery selector:
 
-    <input type="checkbox" class="myCheck" value="yes" id="answer" name="answer"/>
+    <input type="checkbox" class="myCheck" name="option"/>
 
 Setup prettyCheckable for your input and you're all set:
 
@@ -24,5 +24,10 @@ You can start the plugin with the options you see on the documentation below and
 If you want to apply something to all the inputs but you need a few specific ones to be different, you can add the specifics inline:
 
     <input type="checkbox" class="myCheck" value="yes" id="answer" name="answer" data-color="red" />
+    
+If you want to apply label to specfic input checkbox, you can add extra attribute to the inputs <b>data-label</b>, you can add the specifics inline:
+
+    <input type="checkbox" class="myCheck" name="gender" data-color="red" data-label="Male" />    
+    <input type="checkbox" class="myCheck" name="gender" data-color="red" data-label="Female" />  
 
 
