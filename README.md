@@ -13,7 +13,7 @@ Write your inputs and add a class for the jQuery selector:
 
     <input type="checkbox" class="myCheck" name="option"/>
 
-Setup prettyCheckable for your input and you're all set:
+Setup awesome for your input and you're all set:
 
     $('.myCheck').awesome();
 
